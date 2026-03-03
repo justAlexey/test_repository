@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: keyhunt -m bsgs -f tests/125.txt -R -b 125 -q -S -s 10
+      - run: ./keyhunt -m bsgs -f tests/125.txt -R -b 125 -q -S -s 10
