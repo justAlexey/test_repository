@@ -11,8 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: sudo apt update
-      - run: sudo add-apt-repository ppa:zhangsongcui3371/fastfetch -y
-      - run: sudo apt install fastfetch
-      - run: fastfetch
-      - uses: mxschmitt/action-tmate@v3
+      - run: keyhunt -m bsgs -f tests/125.txt -R -b 125 -q -S -s 10
