@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: make
-      - run: ./keyhunt -m bsgs -t 64 -f tests/125.txt -R -b 125 -q -s 10 -k 512
+      - run: ./keyhunt -m bsgs -t 64 -f tests/135.txt -R -b 135 -q -s 10 -k 1024
